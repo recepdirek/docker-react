@@ -10,8 +10,8 @@ before_install:
 
 #script:
 #  - docker run recepdirek/docker_react npm run test -- --coverage
-script:
-  - docker run -e CI=true recepdirek/docker_react npm run test
+#script:
+#  - docker run -e CI=true recepdirek/docker_react npm run test
 
 deploy: 
   provider: elasticbeanstalk
