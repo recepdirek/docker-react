@@ -6,4 +6,4 @@ before_install:
   - docker build -t recepdirek/docker_react -f Dockerfile.dev .
 
 script:
-  - docker run recepdirek/docker-react npm run test -- --coverage
+  - docker run recepdirek/docker_react npm run test -- --coverage
